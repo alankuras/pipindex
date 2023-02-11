@@ -4,7 +4,7 @@ from wheel_inspect import inspect_wheel
 
 
 argparse_help = """
-Simple pip package server which reorganizes the structure for pip packages and serves them over http
+Reorganizes the structure for pip packages (for serving over http)
 """
 
 parser = ArgumentParser(description=argparse_help, formatter_class=RawDescriptionHelpFormatter)
