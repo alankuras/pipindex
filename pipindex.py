@@ -9,7 +9,6 @@ Simple pip package server which reorganizes the structure for pip packages and s
 
 parser = ArgumentParser(description=argparse_help, formatter_class=RawDescriptionHelpFormatter)
 parser.add_argument("--path", "-p", help="Path to directory with packages", required=True, default=".")
-parser.add_argument("--port", help="Port to listen on", required=False, default="8000")
 args = parser.parse_args()
 
 path = pathlib.Path(args.path)
